@@ -18,6 +18,12 @@ header{
     padding: 2px;
     border-radius: 20px;
     font-family: 'Lemonada', cursive; 
+
+}
+#header{
+    position: -webkit-sticky; /* Safari & IE */
+    position: sticky;
+    top: 0;
 }
 
 #AllCountries{
