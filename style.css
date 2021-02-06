@@ -1,0 +1,97 @@
+
+
+
+/* font-family: 'Josefin Sans', sans-serif;
+font-family: 'Lemonada', cursive; */
+
+
+body{
+   background-image:linear-gradient( #FC5E55,#FA4083);
+   background-repeat: no-repeat;
+   background-size: cover;
+   min-height: 700px;
+}
+
+header{
+    background-color: bisque;
+    text-align: center;
+    padding: 2px;
+    border-radius: 20px;
+    font-family: 'Lemonada', cursive; 
+}
+
+#AllCountries{
+    display: flex; 
+    flex-wrap: wrap;
+     
+}
+
+.countryWithCapital{
+    background-color: antiquewhite;
+    border: rgb(71, 114, 255) solid 3px;
+    text-align: center;
+    padding:20px;
+    margin: 10px auto;
+    border-radius:40px;
+    width: 25% ;
+
+}
+.countryName{
+     font-family: 'Josefin Sans', sans-serif;
+     font-size: 30px;
+}
+
+.countryWithCapital:hover{
+    background-color: rgb(250, 232, 158);
+}
+
+button{
+    background-color: coral;
+    padding: 5px;
+    color: dimgrey;
+}
+
+
+/* Description */
+
+.Description{
+    
+    width:80%;
+    margin: 0 auto;
+}
+
+.name{
+    background-color:azure;
+    display:flex;
+    gap: 10px 20%; 
+    font-size:20px;
+    padding: 10px;
+    justify-content: center;
+    border-radius:20%;
+     font-family: 'Josefin Sans', sans-serif;
+
+}
+.capital{
+    justify-content: center;
+    font-size:25px;
+    display: flex;
+    margin-top: 0;
+    background-color: #fc557f;
+}
+.data{
+    background-color:beige;
+    font-family: 'Lemonada', cursive;
+    width: 80%;
+    padding: 10px;
+    border-radius:30px;
+    text-align: center;
+    margin: 0px auto;
+}
+.data img{
+    width: 100%;
+}
+
+#cancel{
+    width:100px;
+    margin-left: 100%;
+}
